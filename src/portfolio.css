@@ -1,6 +1,25 @@
-h1 {
-  text-align: center;
+h1,
+h2 {
   font-family: "PT Mono", monospace;
-  background-color: bisque;
-  padding: 30px;
+}
+
+.hero {
+  padding: 100px;
+  background: rgb(252, 219, 159);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.btn-page {
+  background: rgb(248, 182, 59);
+  border-color: black;
+  border-radius: 5px;
 }
