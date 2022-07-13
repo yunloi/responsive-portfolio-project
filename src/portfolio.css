@@ -1,25 +1,31 @@
+:root {
+  --primary-color: rgb(252, 219, 159);
+  --secondary-color: rgb(248, 182, 59);
+  --heading-font: font-family: "PT Mono", monospace;
+}
+
 h1,
 h2 {
-  font-family: "PT Mono", monospace;
+  font-family: var(--heading-font);
 }
 
 .hero {
   padding: 100px;
-  background: rgb(252, 219, 159);
+  background: var(--primary-color);
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 54px;
+  font-size: 64px;
   font-weight: bold;
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .btn-page {
-  background: rgb(248, 182, 59);
+  background: var(--secondary-color);
   border-color: black;
   border-radius: 5px;
 }
