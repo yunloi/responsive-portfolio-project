@@ -1,6 +1,7 @@
 :root {
   --primary-color: rgb(252, 219, 159);
   --secondary-color: rgb(248, 182, 59);
+  --padding-color: rgb(39, 39, 39);
   --heading-font-family: "Patua One", cursive;
   --default-font-family: "PT Mono", monospace;
 }
@@ -10,12 +11,21 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--heading-font-family);
 }
 
+h3 {
+  font-size: 40px;
+}
+
+p {
+  line-height: 1.5;
+}
+
 .hero {
-  padding: 100px;
+  padding: 80px;
   background: var(--primary-color);
   text-align: center;
 }
@@ -30,6 +40,33 @@ h2 {
 }
 
 .btn-page {
+  background: var(--secondary-color);
+  border-color: black;
+  border-radius: 5px;
+}
+
+.head-description {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 10px;
+  background: var(--padding-color);
+  color: white;
+}
+
+.main-image-outline {
+  padding: 40px;
+  background: var(--padding-color);
+  border-radius: 5px;
+}
+
+.main-description-outline {
+  padding: 40px;
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+.btn-more {
   background: var(--secondary-color);
   border-color: black;
   border-radius: 5px;
