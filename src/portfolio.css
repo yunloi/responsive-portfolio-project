@@ -71,3 +71,29 @@ p {
   border-color: black;
   border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+  .main-description-outline {
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 25px;
+  }
+
+  .hero h2 {
+    font-size: 15px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+}
