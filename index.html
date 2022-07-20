@@ -1,118 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive - Portfolio Project</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Patua+One&family=Tapestry&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive - Portfolio Project</title>
 
-    <script
-      src="https://kit.fontawesome.com/2be93387f1.js"
-      crossorigin="anonymous"
-    ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Patua+One&family=Tapestry&display=swap"
+    rel="stylesheet" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
+  <script src="https://kit.fontawesome.com/2be93387f1.js" crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="src/portfolio.css" />
-  </head>
-  <body>
-    <div class="hero">
-      <h2>
-        <i class="fa-solid fa-circle-arrow-right"></i> Welcome to My Portfolio
-        <i class="fa-solid fa-circle-arrow-left"></i>
-      </h2>
-      <h1>I am Yun Loi Lok</h1>
-      <p>Instructor of GRASIO Sports Silat based in Sydney, Australia</p>
-      <div>
-        <a href="about.html" class="btn btn-page">Learn About Me</a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="src/portfolio.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <ul>
+        <li class="active"> <a href="index.html"> Home</a></li>
+        <li> <a href="about.html"> About</a></li>
+        <li> <a href="work.html"> Work</a></li>
+        <li> <a href="contact.html"> Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="hero">
+    <h2>
+      <i class="fa-solid fa-circle-arrow-right"></i> Welcome to My Portfolio
+      <i class="fa-solid fa-circle-arrow-left"></i>
+    </h2>
+    <h1>I am Yun Loi Lok</h1>
+    <p>Instructor of GRASIO Sports Silat based in Sydney, Australia</p>
+    <div>
+      <a href="about.html" class="btn btn-page">Learn About Me</a>
+    </div>
+  </div>
+  <div class="container">
+    <p class="mt-3 head-description">
+      GRASIO Sports Silat focuses on the art and skills of competition
+      movements as well as self defence. The foundation of GRASIO martial art
+      suits the requirement of, and is in accordance with the competition
+      rules developed for the world championship of silat. Therefore, the
+      development of GRASIO in many countries nowadays has placed silat as one
+      of the potentially appealing branch of sports.
+    </p>
+    <div id="more" class="row mb-5">
+      <div class="col-md-6 main-image-outline d-none d-md-block">
+        <img src="src/images/training.jpg" alt="training" class="img-fluid rounded p-2 border" />
+      </div>
+      <div class="col-md-6 main-description-outline">
+        <h3 class="mt-5 text-center">Training</h3>
+        <p class="mt-4">
+          The silat training activities are based on the standard
+          comprehensive training module adopted from GRASIO Singapore.
+          Frequency of training sessions are subject to change based on
+          necessity, and can be held indoor or outdoor.
+        </p>
+        <a href="#" class="mt-5 btn btn-more">Learn More</a>
       </div>
     </div>
-    <div class="container">
-      <p class="mt-3 head-description">
-        GRASIO Sports Silat focuses on the art and skills of competition
-        movements as well as self defence. The foundation of GRASIO martial art
-        suits the requirement of, and is in accordance with the competition
-        rules developed for the world championship of silat. Therefore, the
-        development of GRASIO in many countries nowadays has placed silat as one
-        of the potentially appealing branch of sports.
-      </p>
-      <div id="more" class="row mb-5">
-        <div class="col-md-6 main-image-outline d-none d-md-block">
-          <img
-            src="src/images/training.jpg"
-            alt="training"
-            class="img-fluid rounded p-2 border"
-          />
-        </div>
-        <div class="col-md-6 main-description-outline">
-          <h3 class="mt-5 text-center">Training</h3>
-          <p class="mt-4">
-            The silat training activities are based on the standard
-            comprehensive training module adopted from GRASIO Singapore.
-            Frequency of training sessions are subject to change based on
-            necessity, and can be held indoor or outdoor.
-          </p>
-          <a href="#" class="mt-5 btn btn-more">Learn More</a>
-        </div>
-      </div>
 
-      <div class="row mb-5">
-        <div class="col-md-6 main-description-outline">
-          <h3 class="mt-5 text-center">Competition & Friendly Matches</h3>
-          <p class="mt-4">
-            As a preparation for these athletes to compete in any competition,
-            we also provide them with friendly matches to boost their self
-            esteem apart from evaluating their performance. The team is exposed
-            to competition at interstate and international level.
-          </p>
-          <a href="#" class="mt-5 btn btn-more">Learn More</a>
-        </div>
-        <div class="col-md-6 main-image-outline d-none d-md-block">
-          <img
-            src="src/images/competition.jpg"
-            alt="training"
-            class="img-fluid rounded p-2 border"
-          />
-        </div>
+    <div class="row mb-5">
+      <div class="col-md-6 main-description-outline">
+        <h3 class="mt-5 text-center">Competition & Friendly Matches</h3>
+        <p class="mt-4">
+          As a preparation for these athletes to compete in any competition,
+          we also provide them with friendly matches to boost their self
+          esteem apart from evaluating their performance. The team is exposed
+          to competition at interstate and international level.
+        </p>
+        <a href="#" class="mt-5 btn btn-more">Learn More</a>
       </div>
-
-      <div class="row mb-5">
-        <div class="col-md-6 main-image-outline d-none d-md-block">
-          <img
-            src="src/images/demonstration.jpg"
-            alt="training"
-            class="img-fluid rounded p-2 border"
-          />
-        </div>
-        <div class="col-md-6 main-description-outline">
-          <h3 class="mt-5 text-center">Demonstration</h3>
-          <p class="mt-4">
-            Silat demonstration is one of the activities we actively participate
-            in, mainly in multicultural events organised by various
-            organisations around Sydney. Apart from that, we also receive
-            invitation for performance in wedding reception.
-          </p>
-          <a href="#" class="mt-5 btn btn-more">Learn More</a>
-        </div>
+      <div class="col-md-6 main-image-outline d-none d-md-block">
+        <img src="src/images/competition.jpg" alt="training" class="img-fluid rounded p-2 border" />
       </div>
     </div>
-  </body>
+
+    <div class="row mb-5">
+      <div class="col-md-6 main-image-outline d-none d-md-block">
+        <img src="src/images/demonstration.jpg" alt="training" class="img-fluid rounded p-2 border" />
+      </div>
+      <div class="col-md-6 main-description-outline">
+        <h3 class="mt-5 text-center">Demonstration</h3>
+        <p class="mt-4">
+          Silat demonstration is one of the activities we actively participate
+          in, mainly in multicultural events organised by various
+          organisations around Sydney. Apart from that, we also receive
+          invitation for performance in wedding reception.
+        </p>
+        <a href="#" class="mt-5 btn btn-more">Learn More</a>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
