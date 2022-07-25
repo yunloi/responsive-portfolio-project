@@ -8,6 +8,7 @@
 
 body {
   font-family: var(--default-font-family);
+  background-color: rgba(255, 199, 114, 0.881);
 }
 
 h1,
@@ -46,17 +47,36 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: var(--padding-color);
-  transition: all 150ms ease-in-out;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
-  color: var(--secondary-color);
+  color: white;
+  background: var(--secondary-color);
+}
+
+.btn-page,
+.btn-more {
+  background: var(--secondary-color);
+  border-color: black;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-more:hover,
+.btn-page:hover {
+  color: white;
+  background: var(--secondary-color);
 }
 
 .hero {
-  padding: 80px;
+  padding: 60px;
+  border-radius: 6px;
   background: var(--primary-color);
   text-align: center;
 }
@@ -64,12 +84,6 @@ nav li.active a {
 .hero p {
   font-size: 20px;
   font-family: var(--default-font-family);
-}
-
-.btn-page {
-  background: var(--secondary-color);
-  border-color: black;
-  border-radius: 5px;
 }
 
 .head-description {
@@ -93,24 +107,18 @@ nav li.active a {
   border-radius: 5px;
 }
 
-.btn-more {
-  background: var(--secondary-color);
-  border-color: black;
-  border-radius: 5px;
-}
-
 footer {
   margin: 60px 0;
 }
 
 footer .contact-box {
   background: var(--primary-color);
-  padding: 30px 120px;
+  padding: 20px 100px;
   border-radius: 10px;
 }
 
 footer .contact-box p {
-  padding: 0;
+  margin: 0;
 }
 
 footer .email-link {
@@ -121,6 +129,10 @@ footer .email-link {
 
 footer .email-link:hover {
   color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 100ms ease-in-out;
 }
 
 footer .social-links a {
@@ -143,8 +155,13 @@ footer .social-links a:hover {
     text-align: center;
   }
 
-  .hero h1 {
-    font-size: 25px;
+  .main-image-outline {
+    padding: 20px;
+  }
+
+  .hero h1,
+  h1 {
+    font-size: 28px;
   }
 
   .hero h2 {
@@ -161,5 +178,13 @@ footer .social-links a:hover {
 
   h3 {
     font-size: 30px;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  .navbar-brand {
+    display: none;
   }
 }
